@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="txtVerisignClass3PrimaryCertificationAuthorityModulus.Text" xml:space="preserve">
+    <value>c95c599ef21b8a0114b410df0440dbe357af6a45408f840c0bd133d9d911cfee02581f25f72aa84405aaec031f787f9e93b99a00aa237dd6ac85a26345c77227ccf44cc67571d239ef4f42f075df0a90c68e206f980ff8ac235f702936a4c986e7b19a20cb53a585e73dbe7d9afe244533dc7615ed0fa271644c652e816845a7</value>
+  </data>
+  <data name="txtVerisignClass3PrimaryCertificationAuthoritySignatureValue.Text" xml:space="preserve">
+    <value>bb4c122bcf2c26004f1413dda6fbfc0a11848cf3281c67922f7cb6c5fadff0e895bc1d8f6c2ca851cc73d8a4c053f04ed626c076015781925e21f1d1b1ffe7d02158cd6917e3441c9c194439895cdc9c000f568d0299eda290454ce4bb10a43df032030ef1cef8e8c9518ce6629fe69fc07db7729cc9363a6b9f4ea8ff640d64</value>
+  </data>
+  <data name="txtVersignClass3SecureServerSignedCertificate.Text" xml:space="preserve">
+    <value>30820405a003020102021075337d9ab0e1233bae2d7de4469162d4300d06092a864886f70d0101050500305f310b300906035504061302555331173015060355040a130e566572695369676e2c20496e632e31373035060355040b132e436c6173732033205075626c6963205072696d6172792043657274696669636174696f6e20417574686f72697479301e170d3035303131393030303030305a170d3135303131383233353935395a3081b0310b300906035504061302555331173015060355040a130e566572695369676e2c20496e632e311f301d060355040b1316566572695369676e205472757374204e6574776f726b313b3039060355040b13325465726d73206f66207573652061742068747470733a2f2f7777772e766572697369676e2e636f6d2f727061202863293035312a302806035504031321566572695369676e20436c6173732033205365637572652053657276657220434130820122300d06092a864886f70d01010105000382010f003082010a028201010095c321128e40c50d015f765e6694d9732c581922b8c9fc7a39902a77727c1d3ef7d855e3af42cb873002dc5bac70e6b844b42b35eb93d217057ecb46d65c53a032519d746458f90c9a00ea5e44496472f4cd10e2850af934eeb38866a9a5a45ad00e987f580d2b52bb86a97e2efab2487c8ddb2d5f0175a28d063b8bb46107c9be2299f81bd1b55766044d35f4917196b59908259b97c83af320b1dd9e980c4a63b7a6ceb001cef8936af30c6e9fb1e9847b819841e681dc3d2ce7b46be39efc0816d7b3d5b96612997c6d71c84dbec70fe3fb37add57587216b86d044145a547939966956c9b931cd896158e1d9760505adf7b902afa7fd4791a222345a31d10203010001a38201813082017d30120603551d130101ff040830060101ff02010030440603551d20043d303b3039060b6086480186f84501071703302a302806082b06010505070201161c68747470733a2f2f7777772e766572697369676e2e636f6d2f72706130310603551d1f042a30283026a024a0228620687474703a2f2f63726c2e766572697369676e2e636f6d2f706361332e63726c300e0603551d0f0101ff040403020106301106096086480186f842010104040302010630290603551d1104223020a41e301c311a301806035504031311436c617373334341323034382d312d3435301d0603551d0e041604146fecafa0dd8aa4eff52a10672d3f5582bcd7ef253081800603551d2304793077a163a461305f310b300906035504061302555331173015060355040a130e566572695369676e2c20496e632e31373035060355040b132e436c6173732033205075626c6963205072696d6172792043657274696669636174696f6e20417574686f72697479821070bae41d10d92934b638ca7b03ccbabf</value>
+  </data>
+  <data name="txtVerisignClass3SecureServerModulus.Text" xml:space="preserve">
+    <value>95c321128e40c50d015f765e6694d9732c581922b8c9fc7a39902a77727c1d3ef7d855e3af42cb873002dc5bac70e6b844b42b35eb93d217057ecb46d65c53a032519d746458f90c9a00ea5e44496472f4cd10e2850af934eeb38866a9a5a45ad00e987f580d2b52bb86a97e2efab2487c8ddb2d5f0175a28d063b8bb46107c9be2299f81bd1b55766044d35f4917196b59908259b97c83af320b1dd9e980c4a63b7a6ceb001cef8936af30c6e9fb1e9847b819841e681dc3d2ce7b46be39efc0816d7b3d5b96612997c6d71c84dbec7
+0fe3fb37add57587216b86d044145a547939966956c9b931cd896158e1d9760505adf7b902afa7fd4791a222345a31d1</value>
+  </data>
+  <data name="txtVerisignClass3SecureServerSignatureValue.Text" xml:space="preserve">
+    <value>c37e08465d9136cf67dcd7a7afafb822c38b0474d3b160bce6feb74412815b3173146356c6722ed11a03435c380a504a4dcddab619a8f4990dafe3f7d8f1752865f66afe9bf4bd52d93fcbda16cba59e2e8e6652783d26fafe9436884a955e2a4c19ef6efa823f2d03efd628b33718cf42b234216447d3206b3a4cdce603900c</value>
+  </data>
+  <data name="txtAmazonModulus.Text" xml:space="preserve">
+    <value>c5176d5880046305c91466c7b7f2ed05d6f3f528212f0e829c86dbf35981cd6f5c669aff9e2d93738e795a347501aa7bb90379fc085405827744914d160f2f3ade9a793413eba875e323e5a82ba577b45d0908be25ccd5fd44916971f9a772533d7edffcf7cc84241cc803cd8e5764ea121169c988670e1c28550351a58b2adb</value>
+  </data>
+  <data name="txtAmazonSignatureValue.Text" xml:space="preserve">
+    <value>3feb3eff141d141d684f6d0c571d2c05e0df6161174a949272d043c6d5f20172193abba420fda6f193312c6d8b91ad6a41c993b2f99cf680d3767049d067447c4b43864f91e2c3c2f6f0703f7d3044e77ec83058ce81634773cdcb019301e9189cba318316a793b5f9f5230ff832d2d661f7c05587666cd757052ce5967ec836743aa68b526903d09db325bb8547892d5c924ae3ff3fa9a854d4d84a9b7af7a8cd8237db964c843a876b8385d955d64fcb2aacf40b15e8a06e0491c3bc6892a420d828af09738ff492fc23b9c521d7cff6175fba59cbd0cdd5b9f99876fad5fa98904a2338330336d66906cd196f8b8b173070aef1d14f8c18c38fefc3286673
+</value>
+  </data>
+  <data name="txtAmazonSignedCertificate.Text" xml:space="preserve">
+    <value>308203dba0030201020210169d041c3130be3d566606f2679ba172300d06092a864886f70d01010505003081b0310b300906035504061302555331173015060355040a130e566572695369676e2c20496e632e311f301d060355040b1316566572695369676e205472757374204e6574776f726b313b3039060355040b13325465726d73206f66207573652061742068747470733a2f2f7777772e766572697369676e2e636f6d2f727061202863293035312a302806035504031321566572695369676e20436c61737320332053656375726520536572766572204341301e170d3038303832373030303030305a170d3039303832373233353935395a3067310b3009060355040613025553311330110603550408130a57617368696e67746f6e3110300e0603550407140753656174746c6531183016060355040a140f416d617a6f6e2e636f6d20496e632e311730150603550403140e7777772e616d617a6f6e2e636f6d30819f300d06092a864886f70d010101050003818d0030818902818100c5176d5880046305c91466c7b7f2ed05d6f3f528212f0e829c86dbf35981cd6f5c669aff9e2d93738e795a347501aa7bb90379fc085405827744914d160f2f3ade9a793413eba875e323e5a82ba577b45d0908be25ccd5fd44916971f9a772533d7edffcf7cc84241cc803cd8e5764ea121169c988670e1c28550351a58b2adb0203010001a38201d3308201cf30090603551d1304023000300b0603551d0f0404030205a030440603551d1f043d303b3039a037a0358633687474703a2f2f5356525365637572652d63726c2e766572697369676e2e636f6d2f535652536563757265323030352e63726c30440603551d20043d303b3039060b6086480186f84501071703302a302806082b06010505070201161c68747470733a2f2f7777772e766572697369676e2e636f6d2f727061301d0603551d250416301406082b0601050507030106082b06010505070302301f0603551d230418301680146fecafa0dd8aa4eff52a10672d3f5582bcd7ef25307906082b06010505070101046d306b302406082b060105050730018618687474703a2f2f6f6373702e766572697369676e2e636f6d304306082b060105050730028637687474703a2f2f5356525365637572652d6169612e766572697369676e2e636f6d2f535652536563757265323030352d6169612e636572306e06082b0601050507010c04623060a15ea05c305a305830561609696d6167652f6769663021301f300706052b0e03021a04144b6bb92896060cbbd052389b29ac4b078b21051830261624687474703a2f2f6c6f676f2e766572697369676e2e636f6d2f76736c6f676f312e676966</value>
+  </data>
+</root>
